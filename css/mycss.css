@@ -1,0 +1,306 @@
+
+/*  ;:0);  */
+
+body{	
+	margin: 0px;
+	text-align: center;
+}
+
+.tag{
+	height: 25px;
+	/*background-color: black;*/
+	/*border: 1px solid green;*/
+}
+
+.clean-both{
+	clear: both;
+	display: table;
+}
+h2{
+	margin: 0px;
+	padding: 0px;
+	/*border: 1px solid red;*/
+
+}
+p{	
+	margin-top: 5px;
+	/*padding: 0px;*/
+	/*border: 1px solid green;*/
+
+}
+/*img{
+	width: 100%;
+	height: auto;
+}*/
+
+/* ================= Start Tag Firts ================= */
+.first{
+	height: 735px;
+	background-image: url("../img/tagOnce1.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.first p{
+	margin-top: 0px;
+	padding-top: 15px;
+}
+.top-navigator{
+	/*position: absolute;*/
+	/*border: 1px solid red;*/
+	display: inline-block;
+	margin: auto;
+	margin-top: 15px;
+}
+
+ ul{
+
+	list-style-type: none;
+	overflow: hidden;
+	margin: 0px;  
+}
+ li{
+	float: left;
+}
+ a{
+	display: block;
+	border: 1px solid #656565;
+	margin-right: 5px;
+	padding: 14px 24px;	
+	text-decoration: none;
+}
+ a:hover{
+	background-color: #020202;
+	opacity: 0.6;
+	color: white;
+}
+
+
+/*.headbutton{
+	background-color: #696969;
+	border: 1px solid red !important;
+}*/
+
+.button-head{
+	border:none;
+	color: white;
+	margin-top: 225px;
+	background-color:#000000;
+	padding: 14px 28px;
+	font-size: 16px;
+	opacity: 0.6;
+	cursor: pointer;
+}
+.button-head:hover{
+	opacity: 0.8;
+}
+
+
+.test{
+	color: black;
+	size: 50px;
+}
+/* ================= End Tag Firts ================= */
+
+/* ================= Start Tag Second ================= */
+
+.second{
+	background-color: white;
+	height: 755px;
+}
+.header-second{
+	display: inline-block;
+	left: 50%;
+	margin-top: 70px;
+	/*padding: 0px;*/
+	/*margin-top: 55px	*/
+}
+
+.framepic-second{
+	margin: auto;
+	width: 65%;
+	height: 488px;
+	/*background-color: #0D0D0D;*/
+	/*border: 1px solid red;*/
+}
+
+.pic1{
+	width: auto;
+	background-position: center;
+	background-image: url("../img/ChalangeThrid14.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 8px;
+	/*border: 1px solid red;*/
+
+}
+.pic2{
+	/*margin-left: 25px; ChalangeThrid17.jpg*/
+	height: 70% !important;button
+	width: auto;
+	background-position: center;
+	background-image: url("../img/ChalangeThrid17.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	/*padding: 8px;*/
+}
+.pic3{
+	/*ChalangeThrid9.jpg*/	
+	width: auto;
+	background-position: center;
+	background-image: url("../img/ChalangeThrid9.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	/*padding: 8px;*/
+}
+.collectpic{
+	float: left;
+	/*position: absolute;*/
+	width: 32%;
+	height: 435px;
+	/*border: 1px solid red;*/
+	margin: 4px;
+	padding: 0px;
+	background-color: black;
+
+}
+.pic4{
+	margin-top: -10%;
+	margin-left: 33.33%;
+	background-position: center;
+	background-image: url("../img/tagSecond4.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	/*background-color: blue !important;*/
+	height: 235px;
+
+	/*tagSecond4.jpg*/
+}
+
+/* ================= End Tag Second ================= */
+
+/* ================= Start Tag Third ================= */
+
+.third{
+	height: 635px;
+}
+
+.third-once{
+	width: 100%;
+	height: 55%;
+	background-color: #D6D6D6;
+}
+.third-second{
+	height: 45%;
+	width: auto;
+	background-position: center;
+	background-image: url("../img/tagSecond3edit.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 8px;
+
+}
+
+/* ================= End Tag third ================= */
+
+/* ================= Start Tag fourth ================= */
+.fourth{
+	height: 635px;
+}
+.fourth-second{
+	display: inline-block;
+	width: 65%;
+	/*border: 1px solid red ;*/
+
+}
+.fourth-second li{
+	width: 32%;
+}
+
+.fourth-second a{
+	border-radius:  25px;
+	border: 3px solid #747474 ;
+}
+.kotak{
+	box-sizing: border-box;
+	margin: auto;
+	width: 59%;
+	height: 255px;
+	border: 3px solid #747474 ;
+	border-radius:  25px;
+	text-align: left;
+	padding-left: 15px;
+	padding-top: 15px;
+}
+
+/* ================= End Tag fourth ================= */
+
+
+/* ================= Start Tag fifth ================= */
+.fifth{
+	height: 300px;
+	background-color: #E1E1E1;
+	/*border: 3px solid #747474 ;*/
+	margin-top: 0px;
+}
+
+.super-tagfifth{
+	margin: auto;
+	margin-top: 55px;
+	width: 75%;
+	height: 211px;
+	/*border: 3px solid #747474 ;*/
+	/*border: 3px solid #747474 ;*/
+
+}
+
+.tagfifth{
+	width:32%;
+	border: 1px solid #747474 ;
+	float: left;
+	margin-right: 7.5px;
+	height: 211px;
+	margin-top: 55px;
+
+}
+
+/* ================= End Tag fifth ================= */
+	
+
+/* ================= Start Tag sixth ================= */
+
+
+.sixth{
+	height: 635px;
+	background-color: #CFE3E8;
+	padding-top: 15%;
+
+}
+
+embed{
+	width: 20%;
+	height: 50px;
+	position: relative;
+	border: 1px solid red;
+	padding-bottom: 0px;
+	color: black;
+}
+
+/*.video-frame{
+	width: 59%;
+	height: auto; 
+	controles
+}*/
+
+/*.atap{
+	position: absolute;
+	margin-left: 20%;
+	background-color: black;
+	width: 60%;
+	height: 63%;
+	z-index: 2;
+	opacity: 0.6;
+}
+*/
+
+/* ================= End Tag sixth ================= */
