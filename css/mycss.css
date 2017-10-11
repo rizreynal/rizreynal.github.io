@@ -82,12 +82,7 @@ p{
 }
 
 
-/*.headbutton{
-	background-color: #696969;
-	border: 1px solid red !important;
-}*/
-
-.button-head{
+button{
 	border:none;
 	color: white;
 	margin-top: 225px;
@@ -97,7 +92,7 @@ p{
 	opacity: 0.6;
 	cursor: pointer;
 }
-.button-head:hover{
+button:hover{
 	opacity: 0.8;
 }
 
@@ -205,6 +200,9 @@ p{
 	background-size: cover;
 	padding: 8px;
 
+}
+.third-second button{
+	margin-top: 109px;
 }
 
 /* ================= End Tag third ================= */
