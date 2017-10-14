@@ -14,7 +14,6 @@ body{
 
 .clean-both{
 	clear: both;
-	display: table;
 }
 h2{
 	margin: 0px;
@@ -50,14 +49,13 @@ p{
 	/*position: absolute;*/
 	/*border: 1px solid red;*/
 	display: inline-block;
-	margin: auto;
+	/*margin: auto;*/
 	margin-top: 15px;
 	position: sticky !important;
 	top: 0px;
 }
 
  ul{
-
 	list-style-type: none;
 	overflow: hidden;
 	margin: 0px;  

@@ -1,0 +1,74 @@
+/*===================== Content Once Start =================*/
+
+body{
+	padding: 0px;
+	margin: 0px;
+}
+
+.content-once{
+	width: 100%;
+	height: 700px;
+	background-color: #0F20C2;
+}
+
+ul{
+	display: inline-block;
+	list-style-type: none;
+	overflow: hidden;
+	/*border: 1px solid red;*/
+	margin: auto;
+	padding: 0px;
+	/*background-color: #FF0000;*/
+/*	width: 100%;*/
+}
+li{
+	float: left;
+	/*border: 1px solid blue;*/
+}
+a{
+	text-decoration: none;
+	padding: 6px;
+	/*border: 1px solid red;*/
+	margin-right: 5px;
+	font-size: 12px;
+	display: block;
+	/*background-color: #5E5E5E;*/
+	color: white;
+}
+.clear-float{
+	clear: both;
+}
+.head-nav{
+	
+	position: absolute;
+	display: inline-block;
+	right: 95px;
+	top: 45px;
+	/*float: right;*/
+	/*border: 1px solid red;*/
+	
+}
+
+body{
+	background-color: black;
+}
+
+.icon{
+	display: inline-block;
+	position: absolute;
+	background-position: center;
+	background-image: url("../img/icon/windows.png")
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 255px;
+	width: 255px;
+
+}
+
+/*====================== Content Once End ===================*/
+
+
+
+
+
+
