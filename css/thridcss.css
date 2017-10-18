@@ -1,3 +1,6 @@
+
+/*Note Screen Size  1366*659 */
+
 body, .fixed{
 	/*background-color: black;*/
 	margin: 0px;
@@ -138,8 +141,9 @@ body, .fixed{
 .top .top-right .right-top p{
 	margin: 4px;
 	position: absolute;
-	font-size: 14px;
+	font-size: 12px;
 	display: inline-block;
+	color: #A0A0A0;
 	/*border: 1px solid red;*/
 }
 
@@ -147,6 +151,32 @@ body, .fixed{
 	/*border: 1px solid red;*/
 	float: right;
 }
+
+.top .top-right .right-top progress{
+	height: 5px;
+	width: 100px;
+	border-radius: 25px;
+	overflow: hidden;
+	float: right;
+	margin: 10px 25px 0px 0px;
+	border: none;
+	/*color: #000000;*/
+	/*border: 1px solid red;*/
+	/*background-color: black;*/
+	/*box-shadow: 0 2px 3px rgba(0, 0, 0, 0.25) inset;*/
+	/*background-image:
+	   -webkit-linear-gradient(-45deg, 
+	                           transparent 33%, rgba(0, 0, 0, .1) 33%, 
+	                           rgba(0,0, 0, .1) 66%, transparent 66%),
+	   -webkit-linear-gradient(top, 
+	                           rgba(255, 255, 255, .25), 
+	                           rgba(0, 0, 0, .25)),
+	   -webkit-linear-gradient(left, #09c, #f44);
+
+    border-radius: 2px; 
+    background-size: 35px 20px, 100% 100%, 100% 100%;*/
+}
+
 
 .top .top-right .right-bottom{
 	margin: 0px;
@@ -157,6 +187,28 @@ body, .fixed{
 	border-radius: 5px;
 	/*border: 1px solid yellow;*/
 }
+
+.top .top-right .right-bottom .custom-combo{
+	border: 1px solid #C4C4C4;
+	border-radius: 5px;
+	width: 100px;
+	height: 25px;
+	margin: 0px;
+	cursor: pointer;
+}
+.top .top-right .right-bottom .custom-combo:hover{
+	background-color: #5093E1;
+
+}
+
+.top .top-right .right-bottom .custom-combo p{
+	position: absolute;
+	display:inline-block;
+	margin: 0px;
+	margin-left: 25px;
+	color: #C4C4C4;
+}
+
 
 div p span{
 	color: #5093E1;
@@ -210,17 +262,47 @@ a[href="##"]{
 }
 
 .bottom-right{
+	display: inline-block;
 	margin: 0px;
 	width: 700px;
 	height: 45px;
 	float: right;
-	border: 1px solid blue;
+	/*border: 1px solid blue;*/
+
 }
-.bottom .bottom-right .right{
+.bottom .bottom-right .container-people p{
+	float: left; margin: 6px; color: #A0A0A0;
+}
+.bottom .bottom-right .container-people{
+	display: inline-block;
+	position: absolute;
+	right: 0px;
+	margin: 6px 95px 0px 0px;
+}
+
+.bottom .bottom-right .container-people .people{
 	width: 30px;
 	height: 30px;
-	border: 1px solid black;
+	/*border: 1px solid black;*/
+	display: inline-block;
+	float: left;
+	margin-left: 25px;
+	cursor: pointer;
+	
 }
+.bottom .bottom-right .container-people .Singgle{
+	background-image: url("../img/icon/singgle_Contacts_32px.png");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.bottom .bottom-right .container-people .Double{
+	background-image: url("../img/icon/User Account_32px.png");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
 
 .bottom p{
 	display: inline-block;
@@ -248,20 +330,18 @@ a[href="##"]{
 	position: fixed;
 	z-index: -1;
 	/*border: 1px solid green;*/
-	margin: 75px 0px 0px 55px;
+	margin: 75px 1px 0px 55px;
 	/*padding-bottom: -55px;*/
-	width: 1315px;
-	height: 544px;
-	overflow-y: scroll;
+	width: 96%;
+	height: 82.5493%;
+	overflow-y: auto;
 
 }
 
 .content-body{
 	background-color: #EDEFF5;
-	/*border: 1px solid black;*/
 	padding: 15px 0px 0px 35px;
 	display: inline-block;
-
 }
 
 .box-content{
@@ -272,7 +352,64 @@ a[href="##"]{
 	margin: 0px;
 	background-color: white;
 	box-shadow: 5px 5px 10px #E3E3E3;
+	/*overflow: unset;*/
 }
+
+.content-body .box-content .bc-left{
+	box-sizing: border-box;
+	height: 100%;
+	width: 70px;
+	/*border: 1px solid red;*/
+	background-color: #FBFBFB;
+	float: left;
+}
+.content-body .box-content .bc-middle{
+	position: absolute;
+	padding-top: 15px;
+	padding-left: 75px;
+}
+
+.content-body .box-content .bc-right{
+	box-sizing: border-box;
+	height: 100px;
+	width: 70px;
+	/*border: 1px solid red;*/
+	border-left: 5px solid #FBFBFB;
+	/*background-color: #FBFBFB;*/
+	float: right;
+}
+
+.box-content .bc-middle p{
+	margin: 0px;
+	margin-top: 5px;
+
+}
+.box-content .bc-middle span{
+	/*border: 1px solid red;*/
+}
+
+.bc-value-red .bc-middle span{
+	color: #F65177;
+}
+
+.bc-value-red .bc-middle span{
+	color: #F65177;
+}
+
+.bc-value-red .bc-right div{
+	/*position: absolute;*/
+	height: 35px;
+	width: 35px;
+	margin: auto;
+	margin-top: 50%;
+	background-image: url("../img/icon/Circled 3 C_32px.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	/*border: 1px solid black;*/
+	/*color: #F65177;*/
+}
+
 .none{
 	background-color: #EDEFF5;
 	box-shadow: none;
