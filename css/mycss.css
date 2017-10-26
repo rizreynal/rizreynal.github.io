@@ -202,7 +202,13 @@ button:hover{
 .third-second button{
 	margin-top: 109px;
 }
-
+.third-second a{
+	background: none;
+	border: none;
+}
+.third-second a:hover{
+	background: none;
+}
 /* ================= End Tag third ================= */
 
 /* ================= Start Tag fourth ================= */
@@ -266,6 +272,10 @@ button:hover{
 
 }
 
+
+.vsecond p{
+	padding: -2px 4px 0px 4px;
+}
 /* ================= End Tag fifth ================= */
 	
 
