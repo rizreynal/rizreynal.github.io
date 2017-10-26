@@ -83,7 +83,7 @@ p{
 button{
 	border:none;
 	color: white;
-	margin-top: 225px;
+	margin-top: 275px;
 	background-color:#000000;
 	padding: 14px 28px;
 	font-size: 16px;
@@ -275,7 +275,7 @@ button:hover{
 .sixth{
 	height: 635px;
 	background-color: #CFE3E8;
-	padding-top: 15%;
+	padding-top: 10%;
 
 }
 
@@ -293,6 +293,79 @@ embed{
 	height: auto; 
 	controles
 }*/
+
+.frame-video{
+	width: 20%;
+	height: 69%;
+	background-color: black;
+	position: absolute;
+	right: 35px;
+	overflow: scroll;
+	overflow-x: hidden;
+}
+
+.content-video{
+	width: 100%;
+	/*background-color: white;*/
+	/*border: 1px solid black;*/
+	/*padding: 8px;*/
+	padding-left: 0px;
+	/*margin: 0px;*/
+	box-shadow: 5px 5px 10px #E3E3E3;
+}
+
+.content-video video{
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	/*float: left;*/
+	-webkit-transition: width 2s, height 4s; 
+    transition: width 2s, height 4s;	
+}
+
+.content-video video:hover{
+    width: 300px;
+    height: 300px;
+    margin: 0px;
+    padding: 0px;
+    cursor: pointer;
+
+}
+
+.frame-video a{
+	border: none;
+	padding: 0px;
+}
+
+.frame-video a:hover{
+	background: none;
+}
+
+/*
+div {
+    width: 100px;
+    height: 100px;
+    background: red;
+    -webkit-transition: width 2s, height 4s; 
+    transition: width 2s, height 4s;
+}
+
+div:hover {
+    width: 300px;
+    height: 300px;
+}
+
+*/
+
+
+video{
+	/*position: absolute;*/
+	width: 60%;
+	height: auto;
+	float: left;
+	margin-left: 35px;	
+}
+
 
 /*.atap{
 	position: absolute;
