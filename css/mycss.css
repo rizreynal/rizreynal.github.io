@@ -254,7 +254,7 @@ button:hover{
 
 .super-tagfifth{
 	margin: auto;
-	margin-top: 55px;
+	margin-top: 0px;
 	width: 75%;
 	height: 211px;
 	/*border: 3px solid #747474 ;*/
@@ -272,10 +272,25 @@ button:hover{
 
 }
 
+.vonce img{
+	cursor: pointer;
+}
+
+.vonce a{
+	background: none;
+	border: none;
+	display: inline-block;
+	/*border: 1px solid red;*/
+	margin: 0px;
+	padding: 0px;
+}
 
 .vsecond p{
+	text-align: justify;
 	padding: -2px 4px 0px 4px;
 }
+
+
 /* ================= End Tag fifth ================= */
 	
 
