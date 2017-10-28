@@ -181,7 +181,7 @@ button:hover{
 /* ================= Start Tag Third ================= */
 
 .third{
-	height: 635px;
+	height: 645px;
 }
 
 .third-once{
@@ -264,7 +264,7 @@ button:hover{
 
 .tagfifth{
 	width:32%;
-	border: 1px solid #747474 ;
+	/*border: 1px solid #747474 ;*/
 	float: left;
 	margin-right: 7.5px;
 	height: 211px;
@@ -299,7 +299,7 @@ button:hover{
 
 .sixth{
 	height: 635px;
-	background-color: #CFE3E8;
+	background-color: #D6D6D6;
 	padding-top: 10%;
 
 }
@@ -357,6 +357,13 @@ embed{
     cursor: pointer;
 	background: none;
 }
+
+
+.vthird img:hover{
+	width: 100%;
+	height: 100%;
+}
+
 
 .frame-video a{
 	border: none;
