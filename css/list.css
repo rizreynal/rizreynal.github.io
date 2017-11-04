@@ -1,0 +1,40 @@
+/**{
+	background-color: black;
+}*/
+
+
+.navigation{
+	/*border: 1px solid blue;*/
+	width: 50%;
+	margin: auto;
+	position: sticky;
+	top: 0px;
+}
+
+
+ul{
+	list-style-type: none;
+	/*border: 1px solid red;*/
+	overflow: hidden;
+	/*margin: 0px;*/
+}
+
+li{
+	float: left;
+}
+
+a{
+	display: block;
+	border: 1px solid black;
+	text-decoration: none;
+	margin: 8px;
+	background-color: #6B6B6B;
+	color: white;
+	padding: 14px 24px;
+}
+
+
+a:hover{
+	background-color: #CECECE;
+	color: black;
+}

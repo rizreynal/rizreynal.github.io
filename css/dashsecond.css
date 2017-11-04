@@ -1,0 +1,186 @@
+
+.top{
+	box-shadow: none;
+	border-bottom: 3px solid #EDEFF5;
+}
+
+.super-content{
+	/*height: 88.57%;*/
+	height: 95%;
+
+	background-color: white;
+}
+
+.second-content-left{
+	position: absolute;
+	box-sizing: border-box;
+	/*border: 1px solid red;*/
+	width: 30%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.second-content-right{
+	position: absolute;
+	box-sizing: border-box;
+	/*border: 1px solid red;*/
+	background-color: #EDEFF5;
+	width: 30%;
+	height: 100%;
+	right: 0px;
+	overflow: hidden;
+}
+
+
+.s-c-l-body{
+	position: absolute;
+	box-sizing: border-box;
+	width: 90%;
+	height: 100%;
+	overflow: scroll;
+	/*background-color: black;*/
+}
+
+
+.second-content-left .contentb{
+	height: 35px;
+	margin: auto;
+	margin-top: 0px;
+}
+
+.search{
+	width: 70%;
+	background-color: white;
+	border:2px solid #A0A0A0;
+}
+.search p{
+	margin: -5px 0px 0px 15px;
+	padding-top: 15px;
+	color: #A0A0A0;
+}
+
+.listNumber{
+	margin-top: 0px;
+	width: 100%;
+	padding: 16px;
+}
+
+.listNumber:hover{
+	cursor: pointer;
+}
+
+.listNumber .nama{
+	margin-left: 15px;
+}
+
+.listNumber .nomer{
+	right: 0px;
+	color: #A0A0A0;
+}
+
+.active .nomer{
+	color: white;
+}
+
+.listNumber p{
+	position:absolute;
+	font-size: 18px;
+	padding: 0px;
+	margin: 8px;
+}
+
+.s-c-l-right{
+	position: absolute;
+	box-sizing: border-box;
+	width: 10%;
+	background-color: #EDEFF5;
+	right: 0px;
+}
+
+
+.second-content-left .s-c-l-right div{
+	width: 22px;
+	height: 22px;
+	margin-left: 4px;
+	box-sizing: border-box;
+	border-radius: 125px;
+	padding-top: 0px;
+
+}
+
+
+.second-content-left .s-c-l-right div:hover{
+	color: blue;
+}
+.second-content-left .s-c-l-right .active{
+	/*border: 1px solid red;*/
+	box-sizing: border-box;
+	background-color: white;
+	color: blue;
+}
+
+.second-content-left .s-c-l-right p{
+	/*display: inline-block;*/
+	font-size: 10px;
+	margin: 0px 0px 0px 0px;
+	padding: 4px 10px 0px 7px;
+	cursor: pointer;
+}
+
+
+.second-content-left .s-c-l-right .active{
+	/*color: blue;*/
+	/*background-color: #FF0000;*/
+	
+}
+
+
+
+
+
+.second-content-right div{
+	font-size: 16px; 
+	margin: 0px;
+	margin-left: 25px;
+	margin-top: 5px;
+}
+
+.second-content-right div .sub{
+	display: inline-block;
+	font-size: 12px;
+	color:#898989;
+	margin-left: 15px;
+}
+
+.rcr{
+	height: 40px;
+	width: 90%;
+	background-color: white;
+	padding: 0px;
+}
+
+.rcr .green{
+	/*position: absolute;*/
+	background-color: green;
+	width: 70px;
+	height: 25px;
+
+}
+.green p{
+	position:absolute;
+	font-size: 18px;
+	padding: 0px;
+	margin: 0px 0px 0px 12px;
+	color: white;
+}
+
+.rcr .isi{
+	margin-top: 10px;
+	display: inline-block;
+}
+
+.rcr .teks{
+	position: absolute;
+	margin-left: 5px;
+}
+
