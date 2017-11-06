@@ -11,6 +11,7 @@
 	height: 100%;
 	right: 0px;
 	overflow: hidden;
+	box-shadow: 5px 0px 10px 15px #E3E3E3;
 }
 
 .th-header{
@@ -128,3 +129,4 @@ a:hover{
 .third-content-left .content-body .box-content .bc-middle{
 	padding-top: 5px;
 }
+

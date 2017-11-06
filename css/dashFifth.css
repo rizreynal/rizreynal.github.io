@@ -1,0 +1,33 @@
+.fifth tbody {
+/*  display: table;
+  table-layout: fixed;
+  width: 100%;*/
+  /*border-spacing: 0 10px;*/
+  margin: none;
+
+}
+
+.fifth td{
+	width: 455px;
+	height: 150px;
+	border-collapse: collapse;
+	border: 2px solid #F6F7FA;
+	/*padding: 50px 70px 50px 70px;	*/
+}
+
+.fifth table{
+	width: 100%;
+	border-collapse: collapse;
+	border-spacing:0px;
+}
+
+.fifth tr {
+    /*border-collapse: collapse;*/
+    text-align: center;
+    /*margin: 15px;*/
+    /*background-color: #F6F7FA;*/
+}
+
+#jadwal {
+	background-color: #F6F7FA;
+}
