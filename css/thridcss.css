@@ -356,8 +356,8 @@ a[href="##"]{
 
 .box-content{
 	overflow: hidden;
-	width: 350px;
-	height: 100px;
+	width: 320px;
+	height: 70px;
 	/*border: 1px solid green;*/
 	margin: 0px;
 	background-color: white;
@@ -424,3 +424,4 @@ a[href="##"]{
 	box-shadow: none;
 	color: #A0A0A0;
 }
+

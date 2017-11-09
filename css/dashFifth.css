@@ -9,10 +9,11 @@
 
 .fifth td{
 	width: 455px;
-	height: 150px;
+	height: 96.5px;
 	border-collapse: collapse;
-	border: 2px solid #F6F7FA;
+	border: 2px solid #E1E3E5;
 	/*padding: 50px 70px 50px 70px;	*/
+	overflow: hidden;
 }
 
 .fifth table{
@@ -30,4 +31,50 @@
 
 #jadwal {
 	background-color: #F6F7FA;
+}
+
+
+tr td .dataFrame{
+	height: 100%;
+	width: 100%;
+	/*border: 1px solid red;*/
+	text-align: left;
+	padding-left: 5px;
+}
+
+
+.dataFrame .date{
+    padding-left: 25px;font-size: 14px;
+}
+
+.panel{
+	box-sizing: border-box;
+	width: 14%;
+	height: 96.5px;
+	border: 2px solid #E1E3E5;
+	/*padding: 50px 70px 50px 70px;	*/
+	overflow: hidden;
+	display: inline-block;
+	margin: 0px;
+	padding: 0px;
+	border-spacing: 0px;
+}
+
+
+.outer{
+  /*margin:20px auto 20px auto;*/
+  /*text-align: center;*/
+  height: 100px;
+}
+.inner{
+  display: inline-block;
+  border: solid #E1E3E5 2px;
+  height: 100%;
+  width: 14.285714%; 
+  box-sizing : border-box;
+  position: relative;
+  overflow: hidden;
+}
+.pull-left{
+  float:left;
 }
