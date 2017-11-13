@@ -7,13 +7,12 @@
 
 }
 
-.fifth td{
-	width: 455px;
-	height: 96.5px;
-	border-collapse: collapse;
-	border: 2px solid #E1E3E5;
-	/*padding: 50px 70px 50px 70px;	*/
-	overflow: hidden;
+.super-content .head{
+	height:65px;
+	text-align: center;
+	padding-top: 20px;
+	border: none;
+	color: #B3B1C3;
 }
 
 .fifth table{
@@ -69,7 +68,7 @@ tr td .dataFrame{
 .inner{
   display: inline-block;
   border: solid #E1E3E5 2px;
-  height: 100%;
+  height: 110%;
   width: 14.285714%; 
   box-sizing : border-box;
   position: relative;

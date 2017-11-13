@@ -1,3 +1,8 @@
+.blue{
+	/*background-color: none;*/
+	background: none;
+}
+
 .fourth-content-left{
 	position: absolute;
 	box-sizing: border-box;

@@ -1,3 +1,34 @@
+.green{
+	background-color: #50C14E;
+}
+
+.blue{
+	background-color: #2C7EDC;
+}
+
+.grey{
+	background-color: #9DA5BE;
+}
+
+.red{
+	background-color: #F05177;
+}
+
+.c-Button:hover{
+	cursor: pointer;
+}
+
+.Backblue{
+	background-color: #2C7EDC;
+}
+
+.abu-abu-gelap{
+	color: #797A7E;
+}
+
+.abu-abu-terang{
+	color: #9CA5C0;
+}
 
 .top{
 	box-shadow: none;
@@ -101,22 +132,26 @@
 }
 
 .s-c-l-right{
+	padding-top: 10px;
 	position: absolute;
 	box-sizing: border-box;
 	width: 10%;
+	/*height: 592.1;*/
+	height: 900px;
 	background-color: #EDEFF5;
 	right: 0px;
 }
 
 
 .second-content-left .s-c-l-right div{
-	width: 22px;
-	height: 22px;
-	margin-left: 4px;
+	width: 25px;
+	height: 25px;
+	margin-left: 8px;
 	box-sizing: border-box;
 	border-radius: 125px;
-	padding-top: 0px;
-
+	padding-top: 2px;
+	padding-left: 2px;
+	
 }
 
 
@@ -139,14 +174,6 @@
 }
 
 
-.second-content-left .s-c-l-right .active{
-	/*color: blue;*/
-	/*background-color: #FF0000;*/
-	
-}
-
-
-
 
 
 .second-content-right div{
@@ -160,7 +187,7 @@
 	display: inline-block;
 	font-size: 12px;
 	color:#898989;
-	margin-left: 15px;
+	margin-left: 50px;
 }
 
 .rcr{
@@ -168,11 +195,21 @@
 	width: 90%;
 	background-color: white;
 	padding: 0px;
+	font-family: MyRiad;
+
+
+}
+
+.rcr p{
+	padding-left: 5px;
+	font-family: MyRiad;
+	font-size: 20px;
+	color: #6E6E6E;
 }
 
 .rcr .green{
 	/*position: absolute;*/
-	background-color: green;
+	/*background-color: green;*/
 	width: 70px;
 	height: 25px;
 
@@ -185,11 +222,50 @@
 	color: white;
 }
 
+.blue p{
+	position:absolute;
+	font-size: 18px;
+	padding: 0px;
+	margin: 0px 0px 0px 12px;
+	color: white;
+}
+
 .rcr .isi{
-	margin-top: 10px;
+	margin-top: 8px;
 	display: inline-block;
 }
 
+.rcr .cyrcle{
+	position: absolute;
+	margin-top: 7px;
+	right: 130px;
+	width: 25px;
+	height: 25px;
+	border-radius: 25px;
+	/*background-color: black;*/
+	text-align: center;
+}
+.rcr .cyrcle p{
+	margin-top: 1px;
+}
+
+.rcr .blue p{
+	color: white;
+}
+
+.rcr .cyrcle2{
+	position: absolute;
+	margin-top: 8px;
+	right: 30px;
+	width: 25px;
+	height: 25px;
+	font-size: 20px;
+	border-radius: 25px;
+	/*background-color: black;*/
+	text-align: center;
+	background-color: transparent;
+	color: #9DA5BE;
+}
 .rcr .teks{
 	position: absolute;
 	margin-left: 5px;
@@ -228,6 +304,93 @@
 	width: 45px;
 }
 
+.scc-description{
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	margin-left: 280px;
+	margin-top: 50px;
+}
+
+.scc-description p{
+	color: #9CA5C0;
+	margin-top: 0px;
+	font-size: 15px;
+
+}
+
+.customcombo{
+	background-color: #F6F7FA;
+	height: 35px;
+	font-family: MyRiad;
+	border: none;
+}
+
+.R span{
+	color: #5093E1;
+}
+
+.S span{
+	color: #50C14E;
+}
+
+.A span{
+	color: #F65177;
+}
+
+.P span{
+	color: #9CA5C0;
+}
+
+.scc-bottom{	
+	margin-top: -25px;
+}
+
+.scc-bottom p{
+	color: black;
+	font-size: 18px;
+	font-family: GILL;
+}
+
+
+.scc-bottom .custom{
+	background-color: #2C7EDC;
+	position: absolute;
+	display: inline-block;
+
+}
+
+.scc-bottom .custom2{
+	background-color: #50C14E;
+	position: absolute;
+	display: inline-block;
+
+}
+
+
+.scc-b-c-1{
+	margin: 10px 0px 0px 70px;
+}
+
+.scc-b-c-2{
+	margin: 10px 0px 0px 140px;
+}
+
+.scc-b-c-3{
+	margin: 10px 0px 0px 210px;
+	width: 50px;
+}
+
+.scc-b-c-4{
+	margin: 10px 0px 0px 280px;
+	width: 50px;
+}
+
+.scc-b-c-5{
+	margin: 10px 0px 0px 350px;
+	width: 50px;
+}
+
 .scc-circle{
 	height: 270px;
 	width: 270px;
@@ -239,13 +402,14 @@
 }
 
 .value-circle{
-	height: 240px;
-	width: 240px;
+	height: 160px;
+	width: 160px;
 	border-radius: 200px;
 	background-color: white;
 	z-index: 2;	
 	margin: auto;
 	text-align: center;
+	margin-top: 40px;
 	/*overflow: hidden;*/
 }
 .value-circle span{

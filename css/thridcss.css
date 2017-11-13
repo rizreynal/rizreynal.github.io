@@ -1,9 +1,48 @@
 
 /*Note Screen Size  1366*659 */
+@font-face {
+    font-family: myFirstFont;
+    src: url(gil.ttf);
+    /*font-weight: bold;*/
+}
+
+
+		@font-face {
+		    font-family: GILL;
+		    src: url(gil.ttf);
+		}
+		@font-face {
+		    font-family: MyRiad;
+		    src: url(MyriadPro-Regular.otf);
+		}
+
+/*@font-face {
+  font-family: 'Tangerine';
+  src: url('../Fonts/gil.ttf') format('truetype');
+}*/
+
+.myriad{
+  font-family: MyRiad;
+}
+
+.abu-abu-gelap{
+	color: #797A7E;
+}
+
+.abu-abu-terang{
+	color: #9CA5C0;
+}
+
+p,span{
+  font-family: GILL;
+  /*font-size: 48px;	*/
+}
 
 .radius5{
 	border-radius: 5px;
 }
+
+
 
 
 .radius25{
@@ -32,7 +71,7 @@ body, .fixed{
 .left{
 	overflow: hidden;
 	background-color: #2F323A;
-	width: 55px;
+	width: 56px;
 	height: 100%;
 	left: 0px;
 	margin-top: 0px;
@@ -43,7 +82,7 @@ body, .fixed{
 }
 
 .left div img{
-	padding: 12px;
+	padding: 14px;
 	margin: 0px;
 }
 .left div img:hover{
@@ -321,15 +360,15 @@ a[href="##"]{
 
 }
 
-.bottom .R span{
+.R span{
 	color: #5093E1;
 }
 
-.bottom .S span{
+.S span{
 	color: #50C14E;
 }
 
-.bottom .A span{
+.A span{
 	color: #F65177;
 }
 
@@ -350,19 +389,24 @@ a[href="##"]{
 
 .content-body{
 	background-color: #EDEFF5;
-	padding: 15px 0px 0px 35px;
+	margin-left: 35px;
+	padding: 8.5px 0px 0px 0px;
 	display: inline-block;
+	overflow: hidden;
 }
 
 .box-content{
 	overflow: hidden;
-	width: 320px;
-	height: 70px;
+	width: 332.5px;
+	height: 75px;
 	/*border: 1px solid green;*/
 	margin: 0px;
 	background-color: white;
 	box-shadow: 5px 5px 10px #E3E3E3;
 	/*overflow: unset;*/
+
+	/*border: 1px solid red;*/
+	border-radius: 5px;
 }
 
 .bc-left{
@@ -375,8 +419,9 @@ a[href="##"]{
 }
 .bc-middle{
 	position: absolute;
-	padding-top: 15px;
-	padding-left: 75px;
+	padding-top: 10px;
+	margin-left: 75px;
+	width: 200.17px;
 }
 
 .bc-right{
@@ -389,39 +434,125 @@ a[href="##"]{
 	float: right;
 }
 
+.bc-right .desk{
+	margin: -15px auto 0px auto;
+	text-align: center;
+	font-size: 15px;
+	color: #7F8387;
+}
+
 .box-content .bc-middle p{
 	margin: 0px;
 	margin-top: 5px;
 }
-.box-content .bc-middle span{
-	/*border: 1px solid red;*/
+
+
+.bc-middle .abu-abu-gelap{
+	font-size: 11pt;
+	top: 27px;
 }
 
-.bc-value-red .bc-middle span{
-	color: #F65177;
+.bc-middle .abu-abu-terang{
+	font-size: 12pt;
+	top: 43px;
 }
 
-.bc-value-red .bc-middle span{
-	color: #F65177;
+.bc-value-blue .bc-middle span{
+	position: absolute;
+	top: 10px;
+	font-size: 15pt;
+	color: #5093E1;
 }
 
-.bc-value-red .bc-right div{
-	/*position: absolute;*/
+.bc-value-blue .bc-right i{
+	padding-left: 20px;
+	color: #5093E1;
+}
+
+.bc-value-blue .bc-right .bcr{
 	height: 35px;
 	width: 35px;
 	margin: auto;
-	margin-top: 50%;
-	background-image: url("../img/icon/Circled 3 C_32px.png");
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	/*border: 1px solid black;*/
-	/*color: #F65177;*/
+	margin-top: 20%;
 }
+
+.bc-value-green .bc-middle span{
+	position: absolute;
+	top: 10px;
+	font-size: 15pt;
+	color: #50C14E;
+}
+
+.bc-value-green .bc-right i{
+	padding-left: 20px;
+	color: #50C14E;
+}
+
+.bc-value-green .bc-right .bcr{
+	height: 35px;
+	width: 35px;
+	margin: auto;
+	margin-top: 20%;
+}
+
+.bc-value-purple .bc-middle span{
+	position: absolute;
+	top: 10px;
+	font-size: 15pt;
+	color: #492A8B;
+}
+
+.bc-value-purple .bc-right i{
+	padding-left: 20px;
+	color: #492A8B;
+}
+
+.bc-value-purple .bc-right .bcr{
+	height: 35px;
+	width: 35px;
+	margin: auto;
+	margin-top: 20%;
+}
+
+
+.bc-value-red .bc-middle span{
+	position: absolute;
+	top: 10px;
+	font-size: 15pt;
+	color: #F65177;
+}
+
+.bc-value-red .bc-right i{
+	padding-left: 20px;
+	color: transparent;
+   -webkit-text-stroke-width: 2px;
+   -webkit-text-stroke-color: #F65177;
+}
+
+.bc-value-red .bc-right .bcr{
+	height: 35px;
+	width: 35px;
+	margin: auto;
+	margin-top: 20%;
+}
+
+.bc-middle .myriad{
+	/*margin-top: 29.67px;*/
+	position: absolute;
+	/*font-size: 12.73pt;*/
+}
+
+
+
 
 .none{
 	background-color: #EDEFF5;
 	box-shadow: none;
 	color: #A0A0A0;
 }
+
+.none p{
+	margin-top: 30px;
+}
+
 
