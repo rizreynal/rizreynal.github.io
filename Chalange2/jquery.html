@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		.divv{
+			background:red;
+			height:100px;
+			width:100px;
+			position:absolute;
+			display: none;
+		}
+	</style>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script> 
+
+
+		// function runIt(){
+		//         $("div").animate({left: '250px'});
+		//         $("div").animate({top: '250px'});
+		//         $("div").animate({left: '0px'});
+		//         $("div").animate({top: '0px'});
+				// $("button").animate({"display": "block"});
+	    	// }
+
+		// function changeIt(){
+
+		// }
+
+		$(document).ready(function(){
+			$("button").click(function(){
+				$("div").show();
+				$("div").queue(function(){
+					$("button").hide();
+					$(this).dequeue();
+				})
+		        $("div").animate({left: '250px'});
+		        $("div").animate({top: '250px'});
+		        $("div").animate({left: '0px'});
+		        $("div").animate({top: '0px'});
+				$("div").queue(function(){
+					$(this).css({"background-color": "green"});
+					$(this).dequeue();
+	        	})		        
+				$("div").animate({
+	          	borderRadius: "100px",
+				position: "absolute"
+	        	});
+		        $("div").animate({left: '250px'});
+		        $("div").animate({top: '250px'});
+		        $("div").animate({left: '0px'});
+		        $("div").animate({top: '0px'});
+		        
+				$("div").queue(function(){
+					$("div").animate({
+		          	borderRadius: "0px",
+					position: "absolute"
+		        	});
+					$("div").hide();
+					$("button").show();
+					$(this).css({
+						"background-color": "red",
+					});
+					$(this).dequeue();
+				})
+
+			})
+		});
+
+	// $(document).ready(function(){
+	//     $("button").click(function(){
+	//     	var kp = $("button");
+	//     	$("button").hide();
+	//     	$("div").show();
+
+
+
+
+	//         $("div").animate({left: '250px'});
+	//         $("div").animate({top: '250px'});
+	//         $("div").animate({left: '0px'});
+	//         $("div").animate({
+	//         	top: '0px',
+	//         });
+
+	    	
+
+
+	//         // kp.queue(function() {
+	//         	$("button").fadeIn(10000);
+	// 	    // });
+	//         // $("div").fadeOut(500);
+
+	//     });
+	</script> 
+</head>
+<body>
+
+<button>Start Animation</button>
+
+
+<div class="divv"></div>
+
+</body>
+</html>
