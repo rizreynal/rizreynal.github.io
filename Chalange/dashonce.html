@@ -4,7 +4,11 @@
 	<title>Dashboard Once calendar shushi</title>
 	<link rel="stylesheet" type="text/css" href="..\css\thridcss.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- 	<link rel="stylesheet" href="bootstrap-4.0.0-beta.2-dist\css\bootstrap.css">
+	<script src="bootstrap-4.0.0-beta.2-dist\js\bootstrap.js" type="text/javascript" charset="utf-8" async defer></script> -->
 	<!-- <link rel="stylesheet" href="..\vendor\fontawesome\css\font-awesome.min.css"> -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
 	<style type="text/css" media="screen">
 		@font-face {
 		    font-family: GILL;
@@ -15,6 +19,16 @@
 		    src: url(MyriadPro-Regular.otf);
 		}
 	</style>
+	<script type="text/javascript">
+		$(document).ready(function(){
+		    $(".top-slide").click(function(){
+		        $(".left").show(1000);
+		        $(this).animate({
+		        	display: 'none'
+		        });
+		    });
+		});
+	</script>
 </head>
 <body>
 
@@ -29,10 +43,11 @@
 	</div> -->
 
 	<div class="fixed top">
-		<div>
+		<button class="top-slide" style="height: 100%; width: 60px;position: absolute;left: 0px;display: none;" type=""></button>
+		<div class="ft-left-top top-left">
 			<p><span>Calendar</span> | Sushi Clinic</p>
 		</div>
-		<ul>
+		<ul class="top-left">
 			<li><a href="##">Reservation</a></li>
 			<li><a href="#">Waitlist</a></li>
 		</ul>
@@ -102,23 +117,23 @@
 	</div>
 
 	<div class="super-content">
-	<div class="content-body">
+	<div class="content-body col-3 col-m-4">
 		<div class="box-content none">
 			<p>17:06</p>
 		</div>
 	</div>
-	<div class="content-body">
+	<div class="content-body col-3 col-m-4">
 		<div class="box-content none">
 			<p>18:06</p>
 		</div>
 	</div>
-	<div class="content-body">
+	<div class="content-body  col-3 col-m-4">
 		<div class="box-content none">
 			<p>19:06</p>
 		</div>
 	</div>
 
-	<div class="content-body">
+	<div class="content-body col-3 col-m-4">
 		<div class="box-content bc-value-red">
 			<div class="bc-left">
 				<img style="margin-top: 20px;margin-left: 20px;" src="../img/icon/Circled 3 C_32px.png">
@@ -137,7 +152,7 @@
 		</div>
 	</div>
 
-	<div class="content-body">
+	<div class="content-body col-3 col-m-4">
 		<div class="box-content bc-value-red">
 			<div class="bc-left">
 				<img style="margin-top: 20px;margin-left: 20px;" src="../img/icon/Circled 3 C_32px.png">
@@ -156,7 +171,7 @@
 		</div>
 	</div>
 
-		<div class="content-body">
+		<div class="content-body col-3 col-m-4">
 		<div class="box-content bc-value-blue">
 			<div class="bc-left">
 				<img style="margin-top: 20px;margin-left: 20px;" src="../img/icon/Circled 3 C_32pxblue.png">
@@ -175,7 +190,7 @@
 		</div>
 	</div>
 
-	<div class="content-body">
+	<div class="content-body col-3 col-m-6">
 		<div class="box-content bc-value-red">
 			<div class="bc-left">
 				<img style="margin-top: 20px;margin-left: 20px;" src="../img/icon/Circled 3 C_32px.png">
@@ -194,7 +209,7 @@
 		</div>
 	</div>
 
-	<div class="content-body">
+	<div class="content-body col-3 col-m-6">
 		<div class="box-content bc-value-blue">
 			<div class="bc-left">
 				<img style="margin-top: 20px;margin-left: 20px;" src="../img/icon/Circled 3 C_32pxblue.png">
@@ -213,7 +228,7 @@
 		</div>
 	</div>
 
-	<div class="content-body">
+	<div class="content-body col-3 col-m-6">
 		<div class="box-content bc-value-blue">
 			<div class="bc-left">
 				<img style="margin-top: 20px;margin-left: 20px;" src="../img/icon/Circled 3 C_32pxblue.png">
@@ -232,7 +247,7 @@
 		</div>
 	</div>
 
-	<div class="content-body">
+	<div class="content-body col-3 col-m-6">
 		<div class="box-content bc-value-green">
 			<div class="bc-left">
 				<img style="margin-top: 20px;margin-left: 20px;" src="../img/icon/Circled 3 C_32pxgeen.png">
@@ -251,7 +266,7 @@
 		</div>
 	</div>
 
-	<div class="content-body">
+	<div class="content-body col-3 col-m-6">
 		<div class="box-content bc-value-blue">
 			<div class="bc-left">
 				<img style="margin-top: 20px;margin-left: 20px;" src="../img/icon/Circled 3 C_32pxblue.png">
@@ -270,7 +285,7 @@
 		</div>
 	</div>
 
-	<div class="content-body">
+	<div class="content-body col-m-3">
 		<div class="box-content bc-value-purple">
 			<div class="bc-left">
 				<img style="margin-top: 20px;margin-left: 20px;" src="../img/icon/Circled 5 C_32px.png">
@@ -290,13 +305,13 @@
 		</div>
 	</div>
 
-	<div class="content-body">
+	<div class="content-body col-m-3">
 		<div class="box-content none">
 			<p>19:06</p>
 		</div>
 	</div>
 
-	<div class="content-body">
+	<div class="content-body col-m-3">
 		<div class="box-content bc-value-purple">
 			<div class="bc-left">
 				<img style="margin-top: 20px;margin-left: 20px;" src="../img/icon/Circled 5 C_32px.png">
@@ -316,12 +331,12 @@
 		</div>
 	</div>
 
-	<div class="content-body">
+	<div class="content-body col-m-3">
 		<div class="box-content none">
 		</div>
 	</div>
 
-	<div class="content-body">
+	<div class="content-body col-m-3">
 		<div class="box-content bc-value-green">
 			<div class="bc-left">
 				<img style="margin-top: 20px;margin-left: 20px;" src="../img/icon/Circled 3 C_32pxgeen.png">
@@ -340,17 +355,17 @@
 		</div>
 	</div>
 
-		<div class="content-body">
+		<div class="content-body col-m-3">
 		<div class="box-content none">
 		</div>
 	</div>
 
-	<div class="content-body">
+	<div class="content-body col-m-3">
 		<div class="box-content none">
 		</div>
 	</div>
 
-	<div class="content-body">
+	<div class="content-body col-m-3">
 		<div class="box-content none">
 		</div>
 	</div>
